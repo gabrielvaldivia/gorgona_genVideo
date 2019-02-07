@@ -521,7 +521,7 @@
    </BOUNDS>
    <PIN pinname="Enabled" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Scale" slicecount="1" values="200">
+   <PIN pinname="Scale" slicecount="1" values="500">
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
