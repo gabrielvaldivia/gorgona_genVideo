@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
-   <PATCH nodename="E:\dev\github\gorgona_genVideo\_init.v4p" systemname="_init" filename="E:\_Proceso\gorgona\_init.v4p" scrollx="105" scrolly="3240">
+   <PATCH nodename="E:\dev\github\gorgona_genVideo\_init_V.v4p" systemname="_init" filename="E:\_Proceso\gorgona\_init.v4p" scrollx="105" scrolly="-720">
    <BOUNDS type="Window" left="0" top="735" width="19305" height="15465">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
@@ -21,7 +21,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8190" top="15555" width="6000" height="4500">
    </BOUNDS>
-   <BOUNDS type="Window" left="-28695" top="-105" width="22935" height="13065">
+   <BOUNDS type="Window" left="19050" top="690" width="12015" height="15075">
    </BOUNDS>
    <PIN pinname="Background Color" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
    </PIN>
@@ -135,7 +135,7 @@
    </PIN>
    <PIN pinname="TranslateY" slicecount="1" visible="1" values="1.40279197506607">
    </PIN>
-   <PIN pinname="Rotate" slicecount="1" values="0.25">
+   <PIN pinname="Rotate" slicecount="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="95" srcpinname="Transform Out" dstnodeid="73" dstpinname="Transform In">
@@ -389,7 +389,7 @@
    </BOUNDS>
    <PIN pinname="Rows" slicecount="1" values="2">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="2" values="1920,1080">
+   <PIN pinname="Y Input Value" slicecount="2" values="800,1280">
    </PIN>
    <PIN pinname="Vector Size" slicecount="1" values="2">
    </PIN>
@@ -562,7 +562,7 @@
    <LINKPOINT x="21210" y="1495">
    </LINKPOINT>
    </LINK>
-   <NODE systemname="text_box" filename="machines\text_box.v4p" nodename="machines\text_box.v4p" componentmode="InAWindow" id="247">
+   <NODE systemname="text_box" filename="machines\text_box.v4p" nodename="machines\text_box.v4p" componentmode="Hidden" id="247">
    <BOUNDS type="Node" left="555" top="10170" width="2235" height="270">
    </BOUNDS>
    <BOUNDS type="Window" left="2010" top="2985" width="9840" height="9930">
@@ -1575,9 +1575,9 @@
    <LINK srcnodeid="472" srcpinname="Buffers" dstnodeid="482" dstpinname="Texture In">
    </LINK>
    <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="483">
-   <BOUNDS type="Node" left="825" top="12870" width="100" height="100">
+   <BOUNDS type="Node" left="825" top="12900" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="825" top="12870" width="345" height="435">
+   <BOUNDS type="Box" left="825" top="12900" width="345" height="435">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
    </PIN>
@@ -2183,7 +2183,7 @@
    <NODE systemname="Add (Value)" nodename="Add (Value)" componentmode="Hidden" id="572">
    <BOUNDS type="Node" left="14745" top="3240" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input 2" slicecount="1" values="20">
+   <PIN pinname="Input 2" slicecount="1" values="10">
    </PIN>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -2322,38 +2322,6 @@
    <PIN pinname="Texture" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <NODE id="593" systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="6330" top="1860" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Transform In" pintype="Input" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="TranslateX" pintype="Input" visible="1" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="TranslateY" pintype="Input" visible="1" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="ScaleX" pintype="Input" visible="1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="ScaleY" pintype="Input" visible="1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Rotate" pintype="Input" visible="1" slicecount="1" values="0.25">
-   </PIN>
-   <PIN pinname="CenterX" pintype="Input" visible="1" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="CenterY" pintype="Input" visible="1" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Transform Out" pintype="Output" visible="1">
-   </PIN>
-   <PIN pinname="ID" pintype="Output" visible="-1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="593" srcpinname="Transform Out" dstnodeid="342" dstpinname="Transform In">
-   </LINK>
    <LINK srcnodeid="188" srcpinname="Layer" dstnodeid="201" dstpinname="Layer 2">
    </LINK>
    <LINK srcnodeid="537" srcpinname="Input Value" dstnodeid="188" dstpinname="Transform In">

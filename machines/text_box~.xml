@@ -31,7 +31,7 @@
    </PIN>
    <PIN pinname="Font Style" slicecount="1" values="Normal">
    </PIN>
-   <PIN pinname="Font Stretch" slicecount="1" values="Expanded">
+   <PIN pinname="Font Stretch" slicecount="1" values="Normal">
    </PIN>
    <PIN pinname="Word Wrapping" slicecount="1" values="Wrap">
    </PIN>
@@ -200,7 +200,7 @@
    <PIN pinname="Send String" slicecount="1" values="text">
    </PIN>
    </NODE>
-   <NODE id="16" systemname="random_type" filename="random_type.v4p" nodename="machines\random_type.v4p" componentmode="InAWindow" hiddenwhenlocked="0" managers="">
+   <NODE id="16" systemname="random_type" filename="random_type.v4p" nodename="machines\random_type.v4p" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="690" top="2580" width="100" height="100">
    </BOUNDS>
    <PIN pinname="trigger" slicecount="1" visible="1" pintype="Input" values="0">

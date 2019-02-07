@@ -9,7 +9,7 @@
    </PIN>
    <PIN pinname="Format" visible="1">
    </PIN>
-   <PIN pinname="Text" visible="1">
+   <PIN pinname="Text" visible="1" slicecount="1" values="äÁÁÁ">
    </PIN>
    <PIN pinname="Maximum Width" slicecount="1" values="500">
    </PIN>
@@ -27,11 +27,11 @@
    </PIN>
    <PIN pinname="Font Weight" slicecount="1" visible="1" values="(nil)">
    </PIN>
-   <PIN pinname="Font" slicecount="1" values="Beatrice">
+   <PIN pinname="Font" slicecount="1" values="Arial">
    </PIN>
    <PIN pinname="Font Style" slicecount="1" values="Normal">
    </PIN>
-   <PIN pinname="Font Stretch" slicecount="1" values="Expanded">
+   <PIN pinname="Font Stretch" slicecount="1" values="Normal">
    </PIN>
    <PIN pinname="Word Wrapping" slicecount="1" values="Wrap">
    </PIN>
@@ -200,7 +200,7 @@
    <PIN pinname="Send String" slicecount="1" values="text">
    </PIN>
    </NODE>
-   <NODE id="16" systemname="random_type" filename="random_type.v4p" nodename="machines\random_type.v4p" componentmode="InAWindow" hiddenwhenlocked="0" managers="">
+   <NODE id="16" systemname="random_type" filename="random_type.v4p" nodename="machines\random_type.v4p" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="690" top="2580" width="100" height="100">
    </BOUNDS>
    <PIN pinname="trigger" slicecount="1" visible="1" pintype="Input" values="0">
@@ -243,8 +243,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="11" srcpinname="Output" dstnodeid="22" dstpinname="Text Layout">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="words" dstnodeid="11" dstpinname="Text">
    </LINK>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -367,7 +365,7 @@
    </PIN>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="Rotate" slicecount="1" values="0.25">
+   <PIN pinname="Rotate" slicecount="1" values="0">
    </PIN>
    <PIN pinname="CenterX" slicecount="1" values="0">
    </PIN>
